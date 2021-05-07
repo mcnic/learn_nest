@@ -10,7 +10,7 @@ async function start() {
     .setTitle("Продвинурый backend")
     .setDescription("документация по rest api")
     .setVersion("1.0.0")
-    .addTag("tag")
+    .addTag("Изучаю Nestjs")
     .build();
   const doc = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup("/api/docs", app, doc);
