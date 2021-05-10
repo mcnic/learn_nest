@@ -6,7 +6,6 @@ import {
   Injectable,
   UnauthorizedException,
 } from "@nestjs/common";
-import { HttpErrorByCode } from "@nestjs/common/utils/http-error-by-code.util";
 import { Reflector } from "@nestjs/core";
 import { JwtService } from "@nestjs/jwt";
 import { Observable } from "rxjs";
